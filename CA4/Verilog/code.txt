@@ -1,0 +1,33 @@
+//	R1: now's index
+//	R2: now's value
+//	R3: max index
+//	R4: max value
+//	R5: condition holder
+
+	R4 = MEM[R3 + 1000]		// max value
+L1:	R1 = R1 + 4
+
+	R2 = MEM[R1 + 1000]
+	R5 = R4 < R2			// found sth bigger?
+	if R5 == R0 GOTO L4		// if hasn't found sth bigger
+	NOP
+	NOP
+
+	R3 = R1 + 0
+	R4 = R2 + 0
+L4:	R5 = R1 < 19*4			// hasn't reached final index?
+	if R5 == R0 GOTO L3		// if has reached final index
+	NOP
+	NOP
+
+	GOTO L1
+	NOP
+	NOP
+
+L3:	MEM[R0 + 2000] = R4
+	R3 = R3 + 1000
+	MEM[R0 + 2004] = R3
+
+L2:	GOTO L2
+	NOP
+	NOP

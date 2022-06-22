@@ -1,0 +1,295 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/Term4/DigitalSystems/CAs/6/Post_synth_CA6/complete
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1641327066
+!i10b 1
+!s100 Pn9KCzega>?PlaNTQoV;b1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4^a]keenoN0n8E^U?X?<e0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/University/Term5/DS II/CA/CA3/Verilog
+Z5 w1641326263
+Z6 8D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv
+Z7 FD:/University/Term5/DS II/CA/CA3/Verilog/Components.sv
+!i122 105
+L0 85 22
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1641327066.000000
+Z10 !s107 D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+vController
+R0
+!s110 1641353935
+!i10b 1
+!s100 >VE>:1QOGNU53eT=<o43c1
+R2
+IogBK<nEY7?[9;GG9?VAPM2
+R3
+S1
+R4
+w1641353930
+8D:/University/Term5/DS II/CA/CA3/Verilog/Controller.sv
+FD:/University/Term5/DS II/CA/CA3/Verilog/Controller.sv
+!i122 118
+L0 1 74
+R8
+r1
+!s85 0
+31
+!s108 1641353935.000000
+!s107 D:/University/Term5/DS II/CA/CA3/Verilog/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/University/Term5/DS II/CA/CA3/Verilog/Controller.sv|
+!i113 1
+R12
+R13
+n@controller
+vCPU
+R0
+!s110 1641327227
+!i10b 1
+!s100 W5BLIQ=_c<:AVI36KVEzd0
+R2
+II_DT6<G7LSEER;?BAeFh^2
+R3
+S1
+R4
+w1641327187
+8D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv
+FD:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv
+!i122 111
+L0 1 34
+R8
+r1
+!s85 0
+31
+!s108 1641327226.000000
+!s107 D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv|
+!i113 1
+R12
+R13
+n@c@p@u
+vDATAPATH
+R0
+!s110 1641358216
+!i10b 1
+!s100 C6b@jNR`L?_6m`FCcIiVb0
+R2
+I@nNH:@bkdj=3X?0>zafXM2
+R3
+S1
+R4
+w1641358210
+8D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv
+FD:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv
+!i122 120
+L0 1 60
+R8
+r1
+!s85 0
+31
+!s108 1641358216.000000
+!s107 D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv|
+!i113 1
+R12
+R13
+n@d@a@t@a@p@a@t@h
+vMEMORY
+R0
+R1
+!i10b 1
+!s100 3a;g]2GOzCU@BD2GR1Kec2
+R2
+I9;IIS8J_e]YD9LfnOSZ2n1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 105
+L0 42 15
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@e@m@o@r@y
+vmux2
+R0
+R1
+!i10b 1
+!s100 z670T8G>15MZEhWoYlm:V2
+R2
+IB1@SIkeoQNY0R6Ain1R7Z1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 105
+L0 20 10
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vmux4
+R0
+R1
+!i10b 1
+!s100 zb;X^T5F>8i8cGRfXb_2U2
+R2
+I]GNgLVn1K@FDcIBVE@?Oi3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 105
+L0 31 10
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vREGFILE
+R0
+R1
+!i10b 1
+!s100 :[6dUN^@?hK[fVNfoioEn2
+R2
+I::FLM<hS`ai:[I8IaTE9k2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 105
+L0 58 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@r@e@g@f@i@l@e
+vRegister
+R0
+R1
+!i10b 1
+!s100 5KK3[oCW?KYe`<NEJRc1D2
+R2
+ICK8aRSTok7jTA<<o79T0Z3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 105
+L0 1 18
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@register
+vSignExtend
+R0
+R1
+!i10b 1
+!s100 o=2JPl[c=N8KzAP?[VR2]3
+R2
+IHhTdDVHlci2;19FL<_n?W2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 105
+L0 108 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@sign@extend
+vTB
+R0
+!s110 1641327067
+!i10b 1
+!s100 ;0E[D`eT4i[3N4QfehGG<3
+R2
+I6Ro>8B9k?1zaM=Z@@_D;71
+R3
+S1
+R4
+w1641318375
+8D:/University/Term5/DS II/CA/CA3/Verilog/TestBench.sv
+FD:/University/Term5/DS II/CA/CA3/Verilog/TestBench.sv
+!i122 109
+L0 3 13
+R8
+r1
+!s85 0
+31
+!s108 1641327067.000000
+!s107 D:/University/Term5/DS II/CA/CA3/Verilog/TestBench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/University/Term5/DS II/CA/CA3/Verilog/TestBench.sv|
+!i113 1
+R12
+R13
+n@t@b

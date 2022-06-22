@@ -1,0 +1,57 @@
+vsim work.TB
+# vsim work.TB 
+# Start time: 08:46:20 on Jan 05,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.CPU
+# Loading work.MEMORY
+# Loading work.Controller
+# Loading work.DATAPATH
+# Loading work.Register
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.REGFILE
+# Loading work.SignExtend
+# Loading work.ALU
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MainDP'.  Expected 27, found 23.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainDP File: D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv Line: 23
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'ZR'.
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'NR'.
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'VR'.
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'CR'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'M4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainDP/M4 File: D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv Line: 25
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv(25): [TFMPC] - Missing connection for port 'in3'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'in0'. The port definition is at: D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv(20).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainDP/M7 File: D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv Line: 32
+add wave -position insertpoint  \
+sim:/TB/clk
+add wave -position insertpoint  \
+sim:/TB/rst
+add wave -position insertpoint  \
+sim:/TB/ARM/MainMem/MEM
+add wave -position insertpoint  \
+sim:/TB/ARM/MainCtrl/pstate
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2006 of file "data.txt". (Current address [2005], address range [0:2004])    : D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv(49)
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainMem
+add wave -position insertpoint  \
+sim:/TB/ARM/MainDP/RF/MEM
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'MainDP'.  Expected 27, found 23.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainDP File: D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv Line: 23
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'ZR'.
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'NR'.
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'VR'.
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv(23): [TFMPC] - Missing connection for port 'CR'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'M4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainDP/M4 File: D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv Line: 25
+# ** Warning: (vsim-3722) D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv(25): [TFMPC] - Missing connection for port 'in3'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'in0'. The port definition is at: D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv(20).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainDP/M7 File: D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv Line: 32
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2006 of file "data.txt". (Current address [2005], address range [0:2004])    : D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv(49)
+#    Time: 0 ns  Iteration: 0  Instance: /TB/ARM/MainMem
+# End time: 09:11:37 on Jan 05,2022, Elapsed time: 0:25:17
+# Errors: 0, Warnings: 10

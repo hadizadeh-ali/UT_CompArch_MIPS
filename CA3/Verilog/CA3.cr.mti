@@ -1,0 +1,48 @@
+{D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv} {1 {vlog -work work -sv -stats=none {D:/University/Term5/DS II/CA/CA3/Verilog/Datapath.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DATAPATH
+
+Top level modules:
+	DATAPATH
+
+} {} {}} {D:/University/Term5/DS II/CA/CA3/Verilog/TestBench.sv} {1 {vlog -work work -sv -stats=none {D:/University/Term5/DS II/CA/CA3/Verilog/TestBench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv} {1 {vlog -work work -sv -stats=none {D:/University/Term5/DS II/CA/CA3/Verilog/CPU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} {D:/University/Term5/DS II/CA/CA3/Verilog/Controller.sv} {1 {vlog -work work -sv -stats=none {D:/University/Term5/DS II/CA/CA3/Verilog/Controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv} {1 {vlog -work work -sv -stats=none {D:/University/Term5/DS II/CA/CA3/Verilog/Components.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module MEMORY
+-- Compiling module REGFILE
+-- Compiling module ALU
+-- Compiling module SignExtend
+
+Top level modules:
+	Register
+	mux2
+	mux4
+	MEMORY
+	REGFILE
+	ALU
+	SignExtend
+
+} {} {}}
