@@ -6,3 +6,5 @@ The second and fourth CA are the SystemVerilog codes for a single-cycle and a pi
 The third CAs is coding a processor, which we believe is inspired by ARM.
 # By who?
 Done by Mohammad Mahdi Moeini Manesh and me.
+# What is this language? Is it Arabic?
+No, it's Persian. Maybe I'll translate it into English one day.
