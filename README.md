@@ -7,14 +7,14 @@ The second and fourth CA are the SystemVerilog codes for a single-cycle and a pi
 
 The third CAs is coding a processor, which we believe is inspired by ARM.
 
-# Are these codes correct?
-CA2 grade: 110/100 (worked without bugs)
-
-CA3 grade: 85/100 (had a bug)
-
-CA4 grade: 103/100 (worked without bugs)
-
 # By who?
 Done by Mohammad Mahdi Moeini Manesh and me.
-# What is this language? Is it Arabic?
-No, it's Persian. Maybe I'll translate it into English one day.
+# How much did these projects score?
+CA2 scored 110/100 (worked without bugs)
+
+CA3 scored 85/100 (had a bug)
+
+CA4 scored 103/100 (worked without bugs)
+
+# What is this language in the PDFs? Is it Arabic?
+No, it's Persian. Maybe I'll translate them into English one day.
